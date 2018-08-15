@@ -1,0 +1,68 @@
+
+
+....Property File Data........ 
+6/12/2013 8:46:24 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+CheckSum Id = 4346337275ADFORV
+Logfile= D:\\Checksum\\Log.txt
+T1016/12/2013 8:46:24 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+Log file path = D:\\Checksum\\Log.txt
+PropertyFile path = D:\Property\MerchantDetails.property
+String Message that send = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx
+Request CheckSum Id  = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx|382155523151
+
+
+....Property File Data........ 
+6/12/2013 8:46:44 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+CheckSum Id = 4346337275ADFORV
+Logfile= D:\\Checksum\\Log.txt
+T1016/12/2013 8:46:44 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+Log file path = D:\\Checksum\\Log.txt
+PropertyFile path = D:\Property\MerchantDetails.property
+String Message that send = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx
+Request CheckSum Id  = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx|382155523151
+
+
+....Property File Data........ 
+6/12/2013 8:46:55 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+CheckSum Id = 4346337275ADFORV
+Logfile= D:\\Checksum\\Log.txt
+T1016/12/2013 8:46:55 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+Log file path = D:\\Checksum\\Log.txt
+PropertyFile path = D:\Property\MerchantDetails.property
+String Message that send = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx
+Request CheckSum Id  = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx|382155523151
+
+
+....Property File Data........ 
+6/12/2013 8:47:09 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+CheckSum Id = 4346337275ADFORV
+Logfile= D:\\Checksum\\Log.txt
+T1016/12/2013 8:47:09 AM........
+Biller Id = T2983
+ResponseUrl = http://182.50.130.70/final.aspx
+CRN = INR
+Log file path = D:\\Checksum\\Log.txt
+PropertyFile path = D:\Property\MerchantDetails.property
+String Message that send = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx
+Request CheckSum Id  = T2983|T101|NA|NA|1|240|NA|NA|INR|NA|NA|NA|NA|NA|NA|NA|T2983|1|NA|NA|NA|NA|NA|http://182.50.130.70/final.aspx|382155523151

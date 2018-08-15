@@ -1,0 +1,323 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Serial_No" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Help_Link" type="xs:string" minOccurs="0" />
+                <xs:element name="Logon_User" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="HandledBy" type="xs:string" minOccurs="0" />
+                <xs:element name="HandledOn" type="xs:string" minOccurs="0" />
+                <xs:element name="Solu_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="BrowserInfo" type="xs:string" minOccurs="0" />
+                <xs:element name="App_Phy_Path" type="xs:string" minOccurs="0" />
+                <xs:element name="File_Path" type="xs:string" minOccurs="0" />
+                <xs:element name="Assign_To" type="xs:string" minOccurs="0" />
+                <xs:element name="Assignee_Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Logon_User_Display" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Serial_No>1</Serial_No>
+    <Error_Type>System.Web.HttpException</Error_Type>
+    <Error_DateTime>3/1/2014 5:41:18 PM</Error_DateTime>
+    <Error_Description>Control 'grdSoldTickets' of type 'GridView' must be placed inside a form tag with runat=server.</Error_Description>
+    <Error_Source>System.Web</Error_Source>
+    <Error_Stack_Trace>   at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer, Boolean renderPanel)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at SoldTicketList.btnExport_Click(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\SoldTicketList.aspx.cs:line 50
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyRenderingInServerForm(System.Web.UI.Control)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/SoldTicketList.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>2</Serial_No>
+    <Error_Type>System.Web.HttpException</Error_Type>
+    <Error_DateTime>3/1/2014 5:41:54 PM</Error_DateTime>
+    <Error_Description>Control 'grdSoldTickets' of type 'GridView' must be placed inside a form tag with runat=server.</Error_Description>
+    <Error_Source>System.Web</Error_Source>
+    <Error_Stack_Trace>   at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer, Boolean renderPanel)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at SoldTicketList.btnExport_Click(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\SoldTicketList.aspx.cs:line 50
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyRenderingInServerForm(System.Web.UI.Control)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/SoldTicketList.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>3</Serial_No>
+    <Error_Type>System.Web.HttpException</Error_Type>
+    <Error_DateTime>3/1/2014 5:43:36 PM</Error_DateTime>
+    <Error_Description>Control 'grdSoldTickets' of type 'GridView' must be placed inside a form tag with runat=server.</Error_Description>
+    <Error_Source>System.Web</Error_Source>
+    <Error_Stack_Trace>   at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer, Boolean renderPanel)
+   at System.Web.UI.WebControls.GridView.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at SoldTicketList.btnExport_Click(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\SoldTicketList.aspx.cs:line 50
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void VerifyRenderingInServerForm(System.Web.UI.Control)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/SoldTicketList.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>4</Serial_No>
+    <Error_Type>System.Web.HttpException</Error_Type>
+    <Error_DateTime>3/1/2014 5:39:52 PM</Error_DateTime>
+    <Error_Description>Unable to find control id 'txtName' referenced by the 'ControlToValidate' property of 'RequiredFieldValidator1'.</Error_Description>
+    <Error_Source>System.Web</Error_Source>
+    <Error_Stack_Trace>   at System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.get_PropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void CheckControlValidationProperty(System.String, System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/BlockSeat.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>5</Serial_No>
+    <Error_Type>System.NullReferenceException</Error_Type>
+    <Error_DateTime>3/28/2014 6:49:51 PM</Error_DateTime>
+    <Error_Description>Object reference not set to an instance of an object.</Error_Description>
+    <Error_Source>App_Web_zwollv0g</Error_Source>
+    <Error_Stack_Trace>   at schd_display.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\schd_display.aspx.cs:line 47
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Page_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/schd_display.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>6</Serial_No>
+    <Error_Type>System.Data.SqlClient.SqlException</Error_Type>
+    <Error_DateTime>3/28/2014 6:04:19 PM</Error_DateTime>
+    <Error_Description> Message: The statement has been terminated. Number: 3621 Procedure:  Server: localhost Source: .Net SqlClient Data Provider State: 0 Severity: 0 LineNumber: 1</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at DataAccessLib.DALHandler.GetDataSet(String strCommandName, DBParams[] sqlParams) in E:\WorkStart10Oct2013\NEYatra\DataAccessLib\DALHandler.cs:line 142
+   at DataAccessLib.DALSchedule.GetSchedule(String from, String to, String mode, String dt) in E:\WorkStart10Oct2013\NEYatra\DataAccessLib\DALSchedule.cs:line 97
+   at BusinessLogicLib.BLSchedule.GetSchedule(String from, String to, String mode, String dt) in E:\WorkStart10Oct2013\NEYatra\BusinessLogicLib\BLSchedule.cs:line 120
+   at schd_display.fillgrid() in e:\WorkStart10Oct2013\NEYatra\NEYatra\schd_display.aspx.cs:line 216
+   at schd_display.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\schd_display.aspx.cs:line 61
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataSet GetDataSet(System.String, DataAccessLib.DBParams[])</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/schd_display.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>7</Serial_No>
+    <Error_Type>System.FormatException</Error_Type>
+    <Error_DateTime>3/28/2014 6:44:29 PM</Error_DateTime>
+    <Error_Description>Input string was not in a correct format.</Error_Description>
+    <Error_Source>mscorlib</Error_Source>
+    <Error_Stack_Trace>   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BlockSeat.btnGetDeatils_Click(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\BlockSeat.aspx.cs:line 24
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/BlockSeat.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>8</Serial_No>
+    <Error_Type>System.Data.SqlClient.SqlException</Error_Type>
+    <Error_DateTime>3/28/2014 6:15:25 PM</Error_DateTime>
+    <Error_Description> Message: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. Number: -2 Procedure:  Server: localhost Source: .Net SqlClient Data Provider State: 0 Severity: 11 LineNumber: 0</Error_Description>
+    <Error_Source>.Net SqlClient Data Provider</Error_Source>
+    <Error_Stack_Trace>   at DataAccessLib.DALHandler.GetDataSet(String strCommandName, DBParams[] sqlParams) in E:\WorkStart10Oct2013\NEYatra\DataAccessLib\DALHandler.cs:line 142
+   at DataAccessLib.DALSchedule.GetSchedule(String from, String to, String mode, String dt) in E:\WorkStart10Oct2013\NEYatra\DataAccessLib\DALSchedule.cs:line 97
+   at BusinessLogicLib.BLSchedule.GetSchedule(String from, String to, String mode, String dt) in E:\WorkStart10Oct2013\NEYatra\BusinessLogicLib\BLSchedule.cs:line 120
+   at schd_display.fillgrid() in e:\WorkStart10Oct2013\NEYatra\NEYatra\schd_display.aspx.cs:line 216
+   at schd_display.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\schd_display.aspx.cs:line 61
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Data.DataSet GetDataSet(System.String, DataAccessLib.DBParams[])</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/schd_display.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>9</Serial_No>
+    <Error_Type>System.NullReferenceException</Error_Type>
+    <Error_DateTime>3/28/2014 6:04:15 PM</Error_DateTime>
+    <Error_Description>Object reference not set to an instance of an object.</Error_Description>
+    <Error_Source>App_Web_lh-68n80</Error_Source>
+    <Error_Stack_Trace>   at Confirmation.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\Confirmation.aspx.cs:line 85
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Page_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/Confirmation.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>10</Serial_No>
+    <Error_Type>System.NullReferenceException</Error_Type>
+    <Error_DateTime>3/28/2014 6:04:33 PM</Error_DateTime>
+    <Error_Description>Object reference not set to an instance of an object.</Error_Description>
+    <Error_Source>App_Web_zobyhzzk</Error_Source>
+    <Error_Stack_Trace>   at Counter_layout_sumo.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\layout_sumo.aspx.cs:line 41
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void Page_Load(System.Object, System.EventArgs)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/layout_sumo.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+</NewDataSet>

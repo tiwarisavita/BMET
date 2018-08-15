@@ -1,0 +1,244 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Serial_No" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_DateTime" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Description" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Source" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Stack_Trace" type="xs:string" minOccurs="0" />
+                <xs:element name="Error_Caused_By_Method" type="xs:string" minOccurs="0" />
+                <xs:element name="Help_Link" type="xs:string" minOccurs="0" />
+                <xs:element name="Logon_User" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="HandledBy" type="xs:string" minOccurs="0" />
+                <xs:element name="HandledOn" type="xs:string" minOccurs="0" />
+                <xs:element name="Solu_Desc" type="xs:string" minOccurs="0" />
+                <xs:element name="BrowserInfo" type="xs:string" minOccurs="0" />
+                <xs:element name="App_Phy_Path" type="xs:string" minOccurs="0" />
+                <xs:element name="File_Path" type="xs:string" minOccurs="0" />
+                <xs:element name="Assign_To" type="xs:string" minOccurs="0" />
+                <xs:element name="Assignee_Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Logon_User_Display" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Serial_No>1</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 9:30:40 AM</Error_DateTime>
+    <Error_Description>The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Net.WebResponse GetResponse()</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>2</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 9:31:29 AM</Error_DateTime>
+    <Error_Description>The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.</Error_Description>
+    <Error_Source>App_Web_oxj4dqlq</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>3</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 9:47:00 AM</Error_DateTime>
+    <Error_Description>The remote name could not be resolved: 'api.smsgatewayhub.com'</Error_Description>
+    <Error_Source>App_Web_vupslb3l</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>4</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 9:52:08 AM</Error_DateTime>
+    <Error_Description>The remote name could not be resolved: 'api.smsgatewayhub.com'</Error_Description>
+    <Error_Source>App_Web_peq5o4_k</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>5</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 9:56:58 AM</Error_DateTime>
+    <Error_Description>The remote name could not be resolved: 'api.smsgatewayhub.com'</Error_Description>
+    <Error_Source>App_Web_slyf4ts5</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>6</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 10:07:01 AM</Error_DateTime>
+    <Error_Description>The remote name could not be resolved: '2smsgatewayhub.com'</Error_Description>
+    <Error_Source>App_Web_w--hd22t</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>7</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 10:12:18 AM</Error_DateTime>
+    <Error_Description>The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.</Error_Description>
+    <Error_Source>System</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>System.Net.WebResponse GetResponse()</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+  <Table1>
+    <Serial_No>8</Serial_No>
+    <Error_Type>System.Net.WebException</Error_Type>
+    <Error_DateTime>6/12/2014 10:13:05 AM</Error_DateTime>
+    <Error_Description>The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.</Error_Description>
+    <Error_Source>App_Web_91splubb</Error_Source>
+    <Error_Stack_Trace>   at final.bindDetails(String tranid) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 195
+   at final.Page_Load(Object sender, EventArgs e) in e:\WorkStart10Oct2013\NEYatra\NEYatra\final.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</Error_Stack_Trace>
+    <Error_Caused_By_Method>Void bindDetails(System.String)</Error_Caused_By_Method>
+    <Logon_User>(SAPCODE- )</Logon_User>
+    <Status>OPEN</Status>
+    <HandledBy />
+    <HandledOn />
+    <Solu_Desc>No Action till Yet</Solu_Desc>
+    <BrowserInfo>IP Address = 127.0.0.1#Type = Desktop#Name = AppleMAC-Safari#Version = 5.0#Major Version = 5#Minor Version = 0#Platform = WinNT#Is Beta = False#Is Crawler = False#Is AOL = False#Is Win16 = False#Is Win32 = True#Supports Frames = True#Supports Tables = True#Supports Cookies = True#Supports VBScript = False#Supports JavaScript = True#Supports Java Applets = True#Supports BackgroundSounds = True#Supports ActiveX Controls = False#Browser = AppleMAC-Safari#CDF = False#CLR Version = 0.0#ECMA Script version = 1.4#MSDOM version = 0.0#Supports tables = True#W3C DOM version = 1.0#</BrowserInfo>
+    <App_Phy_Path>E:\WorkStart10Oct2013\NEYatra\NEYatra\</App_Phy_Path>
+    <File_Path>/NEYatra/final.aspx</File_Path>
+    <Assign_To>Yet to Assign</Assign_To>
+    <Assignee_Name />
+    <Logon_User_Display />
+  </Table1>
+</NewDataSet>

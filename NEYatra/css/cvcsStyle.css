@@ -1,0 +1,66 @@
+.Hyplink {
+	FONT-SIZE: 8pt; COLOR: #000193; FONT-FAMILY: Verdana
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.copyrightTxt {
+	FONT-SIZE: 10px; HEIGHT: 42px; TEXT-ALIGN: left
+}
+.tblVoucher {
+	FONT-SIZE: 10px; COLOR: #003399
+}
+.filterCombos {
+	 FONT-SIZE: 11px; COLOR: #007cc3; FONT-FAMILY: sans-serif
+}
+.filterCombos1 {
+	 FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: sans-serif
+}
+.filterfields {
+	FONT-SIZE: 7pt; COLOR: #003399; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tblFilter {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #003399
+}
+.pageTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #993300; HEIGHT: 25px
+}
+.tblAddClaim {
+	FONT-SIZE: 10px
+}
+.subhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #993300; HEIGHT: 20px
+}
+.subpoints {
+	FONT-SIZE: 11px; HEIGHT: 28px
+}
+.combo {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tblAddClaim TD {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+.btn {
+	BORDER-RIGHT: #00bae8 1px solid; BORDER-TOP: #00bae8 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 7pt; BACKGROUND-IMAGE: url(../images/btnBg.gif); BORDER-LEFT: #00bae8 1px solid; CURSOR: hand; BORDER-BOTTOM: #00bae8 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 20px
+}
+.NormalText {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; TEXT-DECORATION: none
+}
+.subheadMain {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #003366; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.tblAddClaimdg {
+	FONT-SIZE: 10px
+}
+.dottedLineX1 {
+	BACKGROUND-IMAGE: url(/VoucherClaimSystem/images/dotted_line.gif); BACKGROUND-REPEAT: repeat-x; TEXT-ALIGN: center
+}
+.tblAddClaimNew {
+	FONT-SIZE: 10px
+}
+.filterCombosNew {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #003399; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.tblAddClaimNew TD {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}

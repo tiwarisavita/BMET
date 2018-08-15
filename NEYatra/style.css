@@ -1,0 +1,812 @@
+﻿body 
+{
+	color:Purple;
+	font:11px Verdana,Arial;
+}
+
+.font
+{
+	font-size:12px;
+	font-family:Verdana Arial Sans-Serif;
+	font-weight:bold;	
+	}
+	
+.menu
+{
+	background-image: url('images/menu.png');
+	background-repeat:no-repeat;
+	
+	}
+	
+.text
+{
+	font-size:12px;
+	font-family:Verdana Arial Sans-Serif;
+	color:Purple;
+	font-weight:bold;
+}
+
+.watermark
+{
+ color:Gray;    
+}
+
+/*
+.text:hover
+{
+	color:Maroon;
+	
+	}
+*/	
+li
+{
+	float:left;
+	font-size:11px;
+	
+	}
+
+a
+{
+	color:Purple;
+	text-decoration:none;
+	text-align: center;
+}
+a:hover
+{
+	color:Green;
+	text-decoration:none;
+}
+
+.validators
+{
+      font-family:Verdana Arial Sans-Serif;
+      font-weight:normal;
+      font-size:11px;
+      float:left;
+      /*color:Red;*/
+      /*background:#f2f2f2;*/
+      /*border:1px solid #c3c3c3;*/
+      /*padding:3px;*/
+      text-indent:0;
+      color:#15629b;
+      height:10px;
+      vertical-align:top;
+	}
+
+
+
+
+.freedemo
+{
+	background-image:url('images/freedemo1.png');
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+.Reviews
+{
+	background-image: url('images/Reviews.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-top-width: 0px;
+	border-top-color: Black;
+}
+
+.url-had
+{
+	background-image:url('images/url-had.png');
+	background-repeat:no-repeat;
+	background-position: left top;	
+}
+.url-had1
+{
+	background-image:url('images/url-had1.png');
+	background-repeat:no-repeat;
+	background-position: left top;	
+}
+.center-had
+{
+	background-image:url('images/center-had.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.center-line
+{
+	background-image:url('images/center-line-url.png');
+	background-repeat:no-repeat;
+	padding-top:4px;
+}
+.center-line-right
+{
+	background-image:url('images/center-line-url.png');
+	background-repeat:no-repeat;
+	background-position: right top;
+	padding:4px;
+}
+
+.footer
+{
+	background-image:url('images/footer-line.png');
+	
+}
+
+.textheading
+{
+	font-family:Verdana Arial Sans-Serif;
+	font-weight:bold;
+	font-size:18px;
+	color:Purple;
+	
+}
+
+.space
+{
+	margin-top:10px;
+	
+}
+
+.text1
+{
+	font-size:12px;
+	font-family:Verdana Arial Sans-Serif;
+	color:black;
+	line-height:18px;
+	letter-spacing:1px;
+	text-align:justify;
+}
+.contacttext
+{
+ 
+	font-size: 14px;
+	letter-spacing: 1px;
+	
+	}
+
+.webdev-left
+{
+	float:left;
+	padding-right:10px;
+	
+	}
+	
+.paymentbg
+{
+	background-image:url('image/bg.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	}
+	
+.paymenttext
+{
+	font-size:30px;
+	color:#FFFFFF;
+	font-family:Verdana Arial Sans-Serif;
+}
+
+
+.bgimage
+{
+	background-image:url('images/bgimage.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.clock
+{
+	font-family:Verdana Arial Sans-Serif;
+	color:Purple;
+	font-size:12px;
+	font-weight:bold;
+	}
+/*
+ .dd {
+      text-align:left;
+      font-family:Verdana Arial Sans-Serif;
+      font-weight:bold;
+      font-size:12px;
+      float:left;
+      background:#f2f2f2;
+      /*background-color:#ece5ec;*/
+      /*border:1px solid #c3c3c3;*/
+      /*padding:3px;*/
+     /* text-indent:0;
+      cursor:pointer;
+      overflow:hidden;
+      color:#15629b;
+ }
+ */
+ 
+ .dd               /*Defining the style of the drop-down lists*/
+{
+	text-align:left;
+    font-family:Verdana Arial Sans-Serif;
+    font-weight:bold;
+    font-size:14px;
+    float:left;
+    background:#f2f2f2;
+    /*background-color:#ece5ec;*/
+    text-indent:0;
+    cursor:pointer;
+    overflow:hidden;
+    color:#15629b;
+	margin  : 0;
+	padding:1px 7px 1px 7px;
+	line-height: 100%;
+	border-radius: .75em;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	}
+.dd-tb              /*Defining the style of the text-boxes*/
+{
+	text-align:left;
+    font-family:Verdana Arial Sans-Serif;
+    font-weight:bold;
+    font-size:12px;
+    /*float:left;*/
+    background:#f2f2f2;
+    /*background-color:#ece5ec;*/
+    text-indent:0;
+    cursor:pointer;
+    border-width:1px;
+    border-color:#15629b;
+    overflow:hidden;
+    color:#15629b;
+	margin  : 0;
+	padding:2px 7px 2px 7px;
+	line-height: 100%;
+	border-radius: .75em;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	}
+
+	
+.iframe              /*Defining the style of the clock iframe */
+{
+	width:240px;
+	height:25px;
+	border:none 0px;
+
+}
+
+.iframe-rs            /*Defining the style of the route search iframe */
+{
+	width:225px;
+	height:250px;
+	border: none 0px;
+	}
+
+
+
+
+/**********************Schedule Display*************************/
+
+/*
+.DataGridFixedHeader 
+{	
+	background-color: white; 
+	position:relative; 
+	top:expression(this.offsetParent.scrollTop);
+}
+*/
+.modifySearch                  /*Defining the style of the Modify Search Bar */
+{
+	/*background-color:#D9ECFF;*/	/*blue theme color-dark*/
+	/*background-color:#dc6adc;*/   /*pink theme color-dark*/
+	background-color:#6ad9f4;
+	color:#ffffff;
+	width:99%;
+	/*border:solid 2px #007cc3;*/
+	padding:2px 0px 2px 5px;
+	vertical-align:middle;
+	/*border-bottom:solid 2px #007cc3;
+	border-top: solid 2px #007cc3;*/
+	
+	}
+
+.modifypanel    /*Defining the style of the Panel, which opens when click on the 'Modify Search Bar'  */
+{
+	width:100%;
+	/*background-color:#F0F8FF;*/		/*blue theme color-light*/
+	background-color:#ffeefb;			/*pink theme color-light*/
+	/*background-color:#c0f4fe;*/
+	/*border-bottom:solid 2px #007cc3;
+	border-left:solid 2px #007cc3;
+	border-right:solid 2px #007cc3;*/
+	vertical-align:middle;
+	padding:0px 0px 0px 5px;
+	}
+
+
+.topnav
+	{
+		/*color:#007cc3;*/
+		color:Purple;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+		font-weight:normal;
+	}
+.topnav a:link
+	{
+		/*color:#007cc3;*/
+		color:Purple;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		text-decoration:none;
+		font-weight:normal;
+	}
+.topnav a:visited
+	{
+		color:Purple;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		text-decoration:none;
+		font-weight:normal;
+	}
+.topnav a:hover
+	{
+		/*color:#007cc3;*/
+		color:Purple;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		text-decoration:none;
+		font-weight:normal;
+	}
+	
+/*
+.smalllinks
+	{
+		font-size:11px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		color:#000;
+		font-weight:bold;
+	}
+.smalllinks a
+	{
+		font-size:11px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		color:#000;
+		font-weight:bold;
+	}
+
+.filtertbl
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+		border:1px solid #007CC3;
+		padding:3px;
+		border-collapse:collapse;
+		
+	}
+.filtertbl td
+	{
+	border:1px dotted #007CC3;
+		padding:3px;
+		border-collapse:collapse;
+		
+	}
+	
+
+	
+.filtertbl td a
+	{
+		color:#000;
+		font-weight:bold;
+		
+	}
+.filtertbl td a:hover
+	{
+		color:#000;
+		font-weight:bold;
+		
+	}		
+.filtertbl td table td
+	{
+	border:1px dotted #fff;
+		padding:3px;
+		border-collapse:collapse;
+		
+	}	
+	
+*/
+
+.datatbl    /*Defining the outer style of the gridview */
+	{
+		font-family:Verdana Arial Sans-Serif;
+		font-size:13px;
+		/*border: solid 2px #007cc3;*/
+		border:none;
+		padding:3px;
+		/*border-collapse:collapse;*/
+	/*	border:none;*/
+		/*background-color:#D9ECFF;*/
+	font-weight:bold;
+	text-align:center;
+			/*border-radius: 20px;
+		box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;*/
+		
+	}
+.datatbl td    /*Defining the style of the data in the gridview*/
+	{
+		/*border:1px dotted #007CC3;*/
+		border:none;
+		padding:2px;
+		border-collapse:collapse;
+		
+	}
+	
+.datatbl td a       /*Defining the style of the anchor in the gridview*/
+	{
+		color:#000;
+		font-weight:bold;
+		
+	}	
+.datatbl th      /*Defining the style of the table header in the gridview*/
+	{
+		/*border:1px dotted #007CC3;*/
+		border:none;
+		padding:3px;
+		/*border-collapse:collapse;*/
+		
+	}	
+.datatbl td a:hover   /*Defining the style of the anchor for a mouse-over state in the gridview*/
+	{
+		color:#000;
+		font-weight:bold;
+		
+	}		
+.datatbl td table td
+	{
+		border:none;
+		padding:3px;
+		/*border-collapse:collapse;*/
+	}	
+	/*
+.r1
+	{
+		background-color:#007CC3;
+		color:#FFFFFF;
+		font-weight:bold;
+		
+	}
+.r2
+	{
+		background-color:#D9ECFF;
+		font-weight:bold;
+		text-align:center;	
+	}*/
+	
+
+/*.GridView
+{
+	background-color:#D9ECFF;
+	font-weight:bold;
+	text-align:center;
+	border:solid 2px #007cc3;
+	}
+*/
+.GridHeader           /*Defining the style of the Header of gridview*/
+{
+	/*border:solid 2px #007cc3;*/
+	border:none;
+		/*background-color:#D9ECFF;*/	/*blue theme color-dark*/
+		/*background-color:#dc6adc;		/*pink theme color-dark*/
+		background-color:#6ad9f4;
+		color:#ffffff;
+		font-weight:bold;
+		text-align:center;
+		/*border-bottom:solid 2px #007cc3;
+		border-top: solid 2px #007cc3;*/
+		
+		/*border-left:none;
+		border-right:none;*/
+		
+}
+
+/*
+.rA
+	{
+	background-color:#F0F8FF;
+	}
+.rB
+	{
+		
+		background-color:#fff;
+	}
+*/	
+.GridFooter       /*Defining the style of the Footer of gridview*/
+{
+	border:none;
+	/*background-color:#D9ECFF;*/	/*blue theme color-dark*/
+	/*background-color:#dc6adc;		/*pink theme color-dark*/
+	background-color:#6ad9f4;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:center;
+}
+	
+.Gridrow a       /* Defining the style of the anchor tag of row of gridview*/
+	{
+	color:#f7f0f7;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	}
+.Gridrow       /* Defining the style of the row of gridview*/
+	{
+	/*background-color:#F0F8FF;*/	/*blue theme color-light*/
+	/*background-color:#ffeefb;		/*pink theme color-light*/
+	background-color:#c0f4fe;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	/*border-bottom:double 3px #007cc3;*/
+	}
+
+.AlterGridrow      /* Defining the style of the alternate row of gridview*/
+	{		
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		text-align:center;
+		/*background-color:#fff;*/		/*blue theme color-light*/
+		/*background-color:#ffeefb;		/*pink theme color-light*/
+		background-color:#c0f4fe;
+		/*border-bottom:double 3px #007cc3;*/
+	}
+/*
+textarea, Select, input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	}
+	
+.btn
+	{
+		background-color:#D9ECFF;
+		font-weight:bold;
+	}
+.smalltext
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	font-weight:bold;
+	}
+.smallNormal_text
+	{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; 
+	
+	}
+*/
+.GridPager 
+{
+text-align:center;
+/*background-color:#D9ECFF;*/	/*blue theme color-dark*/
+/*background-color:#dc6adc;		/*pink theme color-dark*/
+background-color:#6ad9f4;
+font-weight: normal;
+}
+
+
+.GridPager a:hover 
+{
+	font-weight:bold;
+	color: #000;
+	/*background-color:#D9ECFF;*/	/*blue theme color-dark*/
+	/*background-color:#dc6adc;		/*pink theme color-dark*/
+	background-color:#6ad9f4;
+	text-decoration:blink;
+}
+
+/*
+.paging {
+font-size:11px;
+	font-weight: normal;
+	color: #000;
+}
+.paging a:link, a:visited {
+	font-weight: normal;
+	color: #000;
+	text-decoration: underline;
+}
+.paging a:hover {
+	color: #000;
+	text-decoration: none;
+}
+*/
+/*
+
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%;
+	text-decoration:none;
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+}
+
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	left: 0px;
+	float: left;
+	padding: 3px 10px;
+	margin: 0px 2px 0px 0px;
+	background-color: #FFFFFF;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	background-image:url(../images/tabDeactive.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	border: 1px solid #BACEE9;
+	text-decoration:none;
+	
+}
+
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+
+.TabbedPanelsTabSelected 
+{
+	position: relative;
+	top: 1px;
+	left: 0px;
+	float: left;
+	padding: 3px 10px;
+	margin: 0px 2px 0px 0px;
+	background-color: #FFFFFF;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	background-image:url(../images/tabActive.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	border: 1px solid #BACEE9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #759ed3;
+	border-right-color: #759ed3;
+	border-left-color: #759ed3;
+	
+	
+	
+}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+*/
+
+/**********************Schedule Display Ends*************************/
+
+
+
+
+/**********************LAYOUT SUMO*************************/
+.sumo-bg
+{
+	background-image: url('images/sumo-bg.png');
+	background-repeat: no-repeat;
+	background-position:center top;
+	border:solid 1px silver;
+	
+	/*text-align:center;
+	/*border:solid 1px #007cc3;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; */
+}
+
+.travellinginfo
+{
+	background-image: url('images/travellinginfo.png');
+	background-position:left top;
+	background-repeat:no-repeat;
+	padding: 30px 0px 0px 5px;
+}
+.BMETWalletinfo
+{
+	background-image: url('images/BMETWalletinfo.png');
+	background-position:left top;
+	background-repeat:no-repeat;
+	padding: 30px 0px 0px 5px;
+}
+.traveldetailbar
+{
+	/*background-color:#D9ECFF;*/
+	background-color:#dc6adc;
+	color:#ffffff;
+	/*border-bottom:solid 2px #007cc3;*/
+	width:100%;
+	padding:2px 0px 2px 0px;
+	vertical-align:middle;
+	/*border-bottom:solid 2px #007cc3;
+	border-top: solid 2px #007cc3;*/
+	
+	text-align:left;
+	}
+.traveldetails
+{
+	/*background-color:#F0F8FF;
+	border: solid 2px #007cc3;*/
+	background-color:#ffeefb;
+	/*border-bottom:solid 2px #007cc3;
+	border-top: solid 2px #007cc3;*/
+	vertical-align:middle;
+	padding:0px 0px 0px 5px;
+	text-align:left;
+	}
+
+.vehicle-image
+{
+	background-image: url('images/vehicle-image.png');
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.vehicle-down-image
+{
+	background-image: url('images/vehicle-down-image.png');
+	background-repeat:no-repeat;
+	background-position:top;
+	
+	}
+
+
+
+/**********************LAYOUT SUMO ENDS*************************/
+
+
+
+/**********************CONFORMATION *************************/
+
+.information
+{
+	background-image: url('images/information.png');
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+
+/**********************CONFORMATION ENDS*************************/
+
+
+
+.bus-bg
+{
+	background-image: url('images/bus-bg.png');
+	background-repeat: no-repeat;
+	background-position:center top;
+	/*border:solid 1px silver;
+	
+	/*text-align:center;
+	/*border:solid 1px #007cc3;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; */
+}

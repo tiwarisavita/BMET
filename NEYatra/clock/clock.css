@@ -1,0 +1,12 @@
+﻿@font-face {
+    font-family: 'Verdana Arial Sans-Serif';
+}
+
+.container {width: 150px; background:#ffffff; height:35px; margin: 0; overflow: hidden;}
+
+.clock {width:150px; margin:0 ; padding:0px; color:Purple; }
+
+#Date { font-family:'Verdana Arial Sans-Serif'; font-size:12px; font-weight:bold; text-align:center;  }
+
+ul { width:150px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+ul li { display:inline; font-size:14px; font-weight:bold; text-align:center; font-family:'Verdana Arial Sans-Serif';  }

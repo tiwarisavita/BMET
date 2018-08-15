@@ -1,0 +1,82 @@
+﻿/*
+.AjaxCalendar .ajax_calendar_container
+{
+	border:1px solid #646464;
+    background-color:Black;
+    color: red;
+}
+
+.AjaxCalendar.ajax_calendar_other.ajax_calendar_day,
+.AjaxCalendar.ajax_calendar_other.ajax_calendar_year 
+{
+	color: Black;
+}
+
+.AjaxCalendar.ajax_calendar_hover.ajax_calendar_day,
+.AjaxCalendar.ajax_calendar_hover.ajax_calendar_month,
+.AjaxCalendar.ajax_calendar_hover.ajax_calendar_year 
+{
+	color:  White;
+}
+
+.AjaxCalendar.ajax_calendar_active.ajax_calendar_day,
+.AjaxCalendar.ajax_calendar_active.ajax_calendar_month,
+.AjaxCalendar.ajax_calendar_active.ajax_calendar_year 
+{
+	color: Purple;
+	font-weight:bold;
+}
+
+
+.AjaxCalendar 
+{
+	border:solid 2px #000;
+    background-color:Blue;
+    color:Red;
+}*/
+.AjaxCalendar .ajax__calendar_container
+{
+	/*border:solid 1px #000;*/
+	border:dotted 1px #000;
+    /*background-color:#d9ecff;*/
+    background-color:#ffeefb;
+    color:Purple;
+}
+
+.AjaxCalendar .ajax__calendar_title
+{
+	 /*background-color:#d9ecff; /* pale green */
+	 background-color:#ffeefb;
+	}
+	
+.AjaxCalendar .ajax__calendar_prev,
+.AjaxCalendar .ajax__calendar_next
+{
+ /*background-color:#007cc3; /* darker gray */
+ /*background-color:#dc6adc;*/
+ height:20px;
+ width:20px;
+}
+.AjaxCalendar .ajax__calendar_today
+{
+ /*background-color:#007cc3;*/
+ /*background-color:#dc6adc; */
+ height:20px;
+}
+.AjaxCalendar .ajax__calendar_days table thead tr td
+{
+/* background-color:#f0f8ff;
+background-color:#f7f0f7;*/
+
+
+}
+.AjaxCalendar .ajax__calendar_day
+{
+	/* color:#333; /* normal day - darker gray color */
+	color:Purple;
+}
+.AjaxCalendar .ajax__calendar_other .ajax__calendar_day
+{
+ /*color:#666; /* day not actually in this month - lighter gray color */
+ color:Red;
+}

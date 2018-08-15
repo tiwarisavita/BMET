@@ -1,0 +1,31 @@
+﻿.CustomTabStyle{
+    background-image:url('../images/Car-rentalbg.png'); 
+    background-repeat:no-repeat;
+    background-position:left;
+    border: 1px solid #B7B7B7;
+    border-radius: 5px 5px 5px 5px;
+    height:180px;
+}
+
+.ajax__tab_tab {
+    font-family:verdana,tahoma,helvetica;
+    font-size:15px;
+    color:White;
+    background-color:rgb(199,48,194);
+    border-radius: 2px;
+    width:120px;
+    height:22px;
+    border-bottom-color:#B7B7B7;
+   
+   }
+ .ajax__tab_header
+ {
+     background-image:url('../images/Car-rentalbg.png'); 
+     height:30px; 
+ }
+ .ajax__tab_hover
+{
+   
+  background-color:Black;
+ 
+}
